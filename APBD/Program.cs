@@ -9,13 +9,13 @@
     
     public static int feature_avg(int[] numbers)
     {
-        int sum = 0;
+        int SUUMM = 0;
         for (int i = 0; i < numbers.Length; i++)
         {
-            sum += numbers[i];
+            SUUMM += numbers[i];
         }
 
-        int avg = sum / numbers.Length;
+        int avg = SUUMM / numbers.Length;
     
         return avg;
     }
